@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "vbo",
+  "name": "Weiboer",
   "version": "0.0.1",
-  "description": "微博网页版浏览器扩展",
+  "description": "围脖儿，微博浏览插件",
   "content_scripts": [{
     "matches": ["https://weibo.com/*"],
     "js": ["js/content.js"]
