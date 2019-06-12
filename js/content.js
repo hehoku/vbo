@@ -6,4 +6,8 @@ const skipGuide = () => {
 }
 window.onload = () => {
   skipGuide()
+  const logo = document.querySelector('#plc_top > div > div > div.gn_logo > a')
+  console.log(logo.href)
+  const logoUrl = '?topnav=1&wvr=6&mod=logo'
+  logo.href = logo.href.replace(logoUrl, '?is_new=1&leftnav=1')
 }
